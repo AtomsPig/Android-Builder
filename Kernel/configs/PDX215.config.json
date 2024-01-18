@@ -17,7 +17,7 @@
     "name": "gcc",
     "url": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/+archive/refs/tags/android-12.1.0_r27.tar.gz",
     "binaryEnv": ["bin"]
-  }
+  }，
   {
     "name": "gcc32",
     "url": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/+archive/refs/tags/android-12.1.0_r27.tar.gz",
