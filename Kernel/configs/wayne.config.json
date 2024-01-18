@@ -1,38 +1,24 @@
 [
   {
     "kernelSource": {
-      "name": "Mi6X",
-      "repo": "https://github.com/Diva-Room/Miku_kernel_xiaomi_wayne",
-      "branch": "TDA",
-      "device": "wayne",
-      "defconfig": "vendor/wayne_defconfig"
+      "name": "SONY",
+      "repo": "https://github.com/freak07/Kirisakura_Sagami",
+      "branch": "master_qcom_a13",
+      "device": "PDX-215",
+      "defconfig": "kirisakura_defconfig"
     },
     "toolchains": [
-      {
-        "repo": "https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b",
-        "branch": "lineage-20.0",
-        "name": "clang",
-        "binaryEnv": [
-          "bin"
-        ]
-      },
-      {
-        "repo": "https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9",
-        "branch": "lineage-19.1",
-        "name": "aarch64",
-        "binaryEnv": [
-          "bin"
-        ]
-      },
-      {
-        "repo": "https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9",
-        "branch": "lineage-19.1",
-        "name": "arm",
-        "binaryEnv": [
-          "bin"
-        ]
-      }
-    ],
+  {
+    "name": "clang",
+    "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/master-kernel-build-2022/clang-r450784d.tar.gz",
+    "binaryEnv": ["./bin"]
+  },
+  {
+    "name": "gcc",
+    "url": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/+archive/refs/tags/android-12.1.0_r27.tar.gz",
+    "binaryEnv": ["bin"]
+  }
+],
     "enableCcache": true,
     "params": {
       "ARCH": "arm64",
