@@ -4,7 +4,7 @@
       "name": "SONY",
       "repo": "https://github.com/freak07/Kirisakura_Sagami",
       "branch": "master_qcom_a13",
-      "device": "PDX-215",
+      "device": "PDX215",
       "defconfig": "kirisakura_defconfig"
     },
     "toolchains": [
