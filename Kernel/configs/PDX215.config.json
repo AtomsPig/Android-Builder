@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "SONY",
-      "repo": "https://github.com/freak07/Kirisakura_Sagami",
+      "repo": "https://github.com/ViP3R-KERNELs/kernel_sony_sagami",
       "branch": "master_qcom_a13",
       "device": "PDX215",
-      "defconfig": "kirisakura_defconfig"
+      "defconfig": "viper_defconfig"
     },
     "toolchains": [
   {
